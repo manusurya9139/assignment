@@ -6,7 +6,6 @@ def max_length_substr(string):
     i = 0
     while n >= i:
         for j in range(i+1, n):
-            print substr
             if string[j] not in substr:
                 substr= substr + string[j]
             	max_len = max(max_len, len(substr))
